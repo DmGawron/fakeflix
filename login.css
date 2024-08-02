@@ -75,7 +75,7 @@ body {
 }
 
 .password-show {
-    display: flex;
+	display: flex;
 }
 
 .email-input,
@@ -85,7 +85,7 @@ body {
 	border-radius: 5px;
 	border: none;
 	outline: 0;
-	font-size: 1.2rem;
+	font-size: 1.21rem;
 	width: 100%;
 	background-color: var(--backgrund-color);
 	color: var(--text-color);
@@ -118,17 +118,17 @@ body {
 	border: none;
 	color: #737373;
 	text-transform: uppercase;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .pass-btn.active {
-    display: block;
-    background-color:rgb(71, 71, 71);
+	display: block;
+	background-color: rgb(71, 71, 71);
 }
 
 /* js manipulation */
 .password-input.btn-login-active {
-    background-color:rgb(71, 71, 71) ;
+	background-color: rgb(71, 71, 71);
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 }
